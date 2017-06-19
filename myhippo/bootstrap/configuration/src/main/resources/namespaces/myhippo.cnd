@@ -1,7 +1,18 @@
-<'myhippo'='http://www.onehippo.org/myhippo/nt/1.0'>
-<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
 <'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+<'myhippo'='http://www.onehippo.org/myhippo/nt/1.0'>
 
-[myhippo:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document orderable
+[myhippo:account] > hippo:compound, hippostd:relaxed
+  orderable
+
+[myhippo:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[myhippo:author] > hippostd:relaxed, hippotranslation:translated, myhippo:basedocument
+  orderable
+
+[myhippo:blogpost] > hippostd:relaxed, hippotranslation:translated, myhippo:basedocument
+  orderable
 

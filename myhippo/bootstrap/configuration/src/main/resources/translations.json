@@ -1,0 +1,156 @@
+{
+  "hippo:templates":   {
+    "en":     {
+      "new-resource-bundle": "new resource bundle",
+      "new-blog-folder": "new blog folder",
+      "new-untranslated-folder": "new untranslated folder",
+      "new-blogauthor-folder": "new blog author folder",
+      "new-blog-document": "new blog post",
+      "new-blogauthor-document": "new blog author"
+    },
+    "nl":     {
+      "new-resource-bundle": "nieuwe resource bundle",
+      "new-blog-folder": "nieuwe banner map",
+      "new-untranslated-folder": "nieuwe onvertaalde map",
+      "new-blogauthor-folder": "nieuwe blog auteur map",
+      "new-blog-document": "nieuwe blog post map",
+      "new-blogauthor-document": "nieuwe blog auteur"
+    },
+    "de":     {
+      "new-resource-bundle": "Neues Resource-Bundle",
+      "new-blog-folder": "Neuer Blog-Ordner",
+      "new-untranslated-folder": "Neuer nicht übersetzter Ordner",
+      "new-blogauthor-folder": "Neuer Blogger-Ordner",
+      "new-blog-document": "Neuer Blog-Post",
+      "new-blogauthor-document": "Neuer Blogger"
+    },
+    "fr":     {
+      "new-resource-bundle": "nouveau resource bundle",
+      "new-blog-folder": "nouveau dossier post blog",
+      "new-untranslated-folder": "nouveau dossier non traduit",
+      "new-blogauthor-folder": "nouveau dossier auteur blog",
+      "new-blog-document": "nouveau post blog",
+      "new-blogauthor-document": "nouvel auteur blog"
+    }
+  },
+  "hippo:types":   {
+    "myhippo:blogpost":     {
+      "en":       {
+        "jcr:name": "Blogpost",
+        "myhippo:authors": "Author(s)",
+        "myhippo:content": "Content",
+        "myhippo:categories": "Categories",
+        "myhippo:publicationdate": "Publication Date",
+        "myhippo:authors#hint": "Link to author document(s)",
+        "myhippo:title": "Title",
+        "myhippo:introduction": "Introduction"
+      },
+      "nl":       {
+        "jcr:name": "Blogpost",
+        "myhippo:authors": "Auteur(s)",
+        "myhippo:content": "Inhoud",
+        "myhippo:categories": "Categorieën",
+        "myhippo:publicationdate": "Publicatiedatum",
+        "myhippo:authors#hint": "Link naar auteur document(en)",
+        "myhippo:title": "Titel",
+        "myhippo:introduction": "Introductie"
+      },
+      "fr":       {
+        "jcr:name": "Post blog",
+        "myhippo:authors": "Auteur(s)",
+        "myhippo:content": "Contenu",
+        "myhippo:categories": "Catégories",
+        "myhippo:publicationdate": "Date de publication",
+        "myhippo:authors#hint": "Lien vers le(s) document(s) de l'auteur",
+        "myhippo:title": "Titre",
+        "myhippo:introduction": "Introduction"
+      },
+      "de":       {
+        "jcr:name": "Blog-Post",
+        "myhippo:authors": "Verfasser",
+        "myhippo:content": "Inhalt",
+        "myhippo:categories": "Kategorien",
+        "myhippo:publicationdate": "Publikationsdatum",
+        "myhippo:authors#hint": "Link zu Verfasserdokument(en)",
+        "myhippo:title": "Titel",
+        "myhippo:introduction": "Einführung"
+      }
+    },
+    "myhippo:author":     {
+      "en":       {
+        "myhippo:accounts#hint": "External social media accounts",
+        "myhippo:photo#hint": "Photo of the author",
+        "myhippo:fullname#hint": "Full name",
+        "jcr:name": "Author",
+        "myhippo:accounts": "Accounts",
+        "myhippo:content": "Description",
+        "myhippo:content#hint": "Information about the author",
+        "myhippo:photo": "Photo",
+        "myhippo:fullname": "Name",
+        "myhippo:role": "Role"
+      },
+      "nl":       {
+        "myhippo:accounts#hint": "Externe social media accounts",
+        "myhippo:photo#hint": "Foto van de auteur",
+        "myhippo:fullname#hint": "Volledige naam",
+        "jcr:name": "Auteur",
+        "myhippo:accounts": "Accounts",
+        "myhippo:content": "Beschrijving",
+        "myhippo:content#hint": "Informatie over de auteur",
+        "myhippo:photo": "Foto",
+        "myhippo:fullname": "Naam",
+        "myhippo:role": "Rol"
+      },
+      "fr":       {
+        "myhippo:accounts#hint": "Comptes médias sociaux externes",
+        "myhippo:photo#hint": "Photo de l'auteur",
+        "myhippo:fullname#hint": "Nom complet",
+        "jcr:name": "Auteur",
+        "myhippo:accounts": "Konten",
+        "myhippo:content": "Description",
+        "myhippo:content#hint": "Informations sur l'auteur",
+        "myhippo:photo": "Photo",
+        "myhippo:fullname": "Nom",
+        "myhippo:role": "Rôle"
+      },
+      "de":       {
+        "myhippo:accounts#hint": "Externe Konten soziale Medien",
+        "myhippo:photo#hint": "Foto des Verfassers",
+        "myhippo:fullname#hint": "Vollständiger Name",
+        "jcr:name": "Verfasser",
+        "myhippo:accounts": "Comptes",
+        "myhippo:content": "Beschreibung",
+        "myhippo:content#hint": "Informationen über den Verfasser",
+        "myhippo:photo": "Foto",
+        "myhippo:fullname": "Name",
+        "myhippo:role": "Rolle"
+      }
+    },
+    "myhippo:account":     {
+      "en":       {
+        "myhippo:link#hint": "External link to the account",
+        "myhippo:link": "Link",
+        "jcr:name": "Account (Compound)",
+        "myhippo:type": "Type"
+      },
+      "nl":       {
+        "myhippo:link#hint": "Externe link naar het account",
+        "myhippo:link": "Link",
+        "jcr:name": "Account (Compound)",
+        "myhippo:type": "Soort"
+      },
+      "fr":       {
+        "myhippo:link#hint": "Lien externe vers le compte",
+        "myhippo:link": "Lien",
+        "jcr:name": "Compte (Compound)",
+        "myhippo:type": "Type"
+      },
+      "de":       {
+        "myhippo:link#hint": "Externer Link zum Konto",
+        "myhippo:link": "Link",
+        "jcr:name": "Konto (Compound)",
+        "myhippo:type": "Art"
+      }
+    }
+  }
+}
