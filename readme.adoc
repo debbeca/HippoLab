@@ -1,0 +1,54 @@
+# Create project
+
+-----------------	
+mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate \
+-DarchetypeGroupId=org.onehippo.cms7 \
+-DarchetypeArtifactId=hippo-project-archetype \
+-DarchetypeVersion=4.2.1 \
+-DarchetypeRepository=https://maven.onehippo.com/maven2
+-----------------	
+
+
+# Build the project:
+
+-----------------	
+cd myhippoproject
+mvn clean verify
+-----------------
+
+# Run Hippo CMS:
+
+-----------------
+mvn -Pcargo.run -Drepo.path=storage
+-----------------
+
+- JCR (contenu)
+
+- go /cms 
+enter admin/admin 
+go to Content
+Document type
+namespaces
+document type / compound type
+base document
+Define structure : title (String), Content (String) 
+Mixin (for Tags)
+then commit
+
+go to essentials / Tools
+BeanWriter to generate a bean to use the doc template
+Find generated classes in Site / beans 
+
+# Expose a Rest Service
+Rest API
+specify Endpoint 
+Choose the Generate Class (bean) to expose
+then run setup 
+The Rest API in the Site / rest repo
+
+
+# source  
+
+https://www.onehippo.org/trails/getting-started/hippo-essentials-getting-started.html
+
+
